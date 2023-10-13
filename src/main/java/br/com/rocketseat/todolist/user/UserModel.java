@@ -1,7 +1,11 @@
 package br.com.rocketseat.todolist.user;
 
+import lombok.Data;
+
+@Data
 public class UserModel {
-    public String username;
-    public String name;
-    public String password;
+    private String username;
+    private String name;
+    private String password;
+
 }
